@@ -46,8 +46,7 @@ func NewSkipString(pos int, text string) Input {
 }
 
 func main() {
-	// s := NewSkipString(3, "Aspiration.com")
-	s := NewSkipString(2, "LavanyaBotcha")
+        s := NewSkipString(3, "Aspiration.com")
 	MapString(&s)
 	fmt.Println(s)
 }
